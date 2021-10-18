@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+body {
+  background-image: url(./cloud.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 3rem;
+  color:#374151;
+}
+.container {
+  width: 30vw;
+  height: 550px;
+  background-color: #F9FAFB;
+  display: block;
+  border-radius: 4px;
+  box-shadow: 5px 5px 40px -5px black;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.app-title {
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  top: -50px;
+  left: 20px;
+}
+.hamburger-menu {
+  width: 40px;
+  height: 35px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.hamburger-menu > span {
+  padding: 3.5px 17px;
+  background-color: #9ca3af;
+  margin: 1px 0;
+  border-radius: 3px;
+}
+#search {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 7px;
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  outline: none;
+  border: 3px solid #9ca3af;
+}
+
+.weather-container {
+  width: 100%;
+  height: 260px;
+  /* background-color: #fff; */
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 20px;
+}
+.weather-icon img {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: drop-shadow(5px 5px 10px gray);
+}
+.temprature-value {
+  width: 100%;
+  height: 60px;
+}
+.temprature-value p {
+  color: #6b7280;
+  font-size: 4rem;
+  text-align: center;
+}
+.temprature-value span {
+  color: #6b7280;
+  font-size: 1.5rem;
+}
+.temprature-minmax {
+  width: 100%;
+  height: 60px;
+  padding-top: 15px;
+}
+.temprature-minmax p {
+  color: #6b7280;
+  font-size: 2rem;
+  text-align: center;
+}
+.temprature-minmax span {
+  color: #6b7280;
+  font-size: 1.2rem;
+}
+.temprature-description p {
+  padding: 8px;
+  color: #6b7280;
+  text-align: center;
+  font-size: 1.2rem;
+  position: relative;
+  bottom: 30px;
+}
+.location p {
+  color: #6b7280;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 40px;
+}
+div.relative {
+  position: absolute;
+  top: 600px;
+  right: 120px;
+}
